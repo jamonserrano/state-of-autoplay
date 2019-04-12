@@ -54,6 +54,7 @@ Playback of any media that includes audio is generally blocked if the playback i
 👩‍💻 Users have the ability to turn off all forms of auto-play, including silent videos.
 
 [https://webkit.org/blog/6784/new-video-policies-for-ios/](https://webkit.org/blog/6784/new-video-policies-for-ios/)
+
 [https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)
 
 ## Edge
