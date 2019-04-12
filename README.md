@@ -15,7 +15,7 @@ Playback of any media that includes audio is generally blocked if the playback i
 
 🚓 Top frames can delegate autoplay permission to their iframes to allow autoplay with sound.
 
-https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
+[https://developers.google.com/web/updates/2017/09/autoplay-policy-changes](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
 
 ## Firefox
 *From version 66 (released on 3/19/2019)*
@@ -28,7 +28,7 @@ https://developers.google.com/web/updates/2017/09/autoplay-policy-changes
 
 👩‍💻 Users can enable autoplay with sound on a per-site basis.
 
-https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audible-video-and-audio/
+[https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audible-video-and-audio/](https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audible-video-and-audio/)
 
 ## Safari
 *From iOS9 (released on 9/16/2015) and macOS High Sierra (released on 9/19/2017)*
@@ -41,8 +41,8 @@ https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audi
 
 👩‍💻 Users have the ability to turn off all forms of auto-play, including silent videos.
 
-https://webkit.org/blog/6784/new-video-policies-for-ios/
-https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/
+[https://webkit.org/blog/6784/new-video-policies-for-ios/](https://webkit.org/blog/6784/new-video-policies-for-ios/)
+[https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)
 
 ## Edge
 
@@ -52,9 +52,9 @@ https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/
 
 👩‍💻 Users can customize media behavior with both global and per-site autoplay controls. 
 
-https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/browser-features/autoplay-policies
+[https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/browser-features/autoplay-policies](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/browser-features/autoplay-policies)
 
 ## Further reading
-https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide
+[https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play#Usage_notes
+[https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play#Usage_notes](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
