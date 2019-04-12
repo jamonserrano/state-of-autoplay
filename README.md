@@ -25,7 +25,7 @@ Playback of any media that includes audio is generally blocked if the playback i
 * the user's Media Engagement Index threshold has been crossed, meaning they previously played video with sound (desktop)
 * the user has added the site to their home screen (mobile).
 
-🚓 Top frames can delegate autoplay permission to their iframes to allow autoplay with sound.
+🚓 Top frames can delegate autoplay permission to their iframes to allow autoplay with sound. Autoplay is allowed by default on same-origin iframes.
 
 [https://developers.google.com/web/updates/2017/09/autoplay-policy-changes](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
 
