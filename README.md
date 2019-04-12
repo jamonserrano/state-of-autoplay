@@ -1,4 +1,4 @@
-# State of Autoplay on the Web
+# The State of Autoplay on the Web
 
 Playback of any media that includes audio is generally blocked if the playback is programmatically initiated in a tab which has not yet had any user interaction. Browsers may additionally choose to block under other circumstances (see below).
 
