@@ -1,6 +1,18 @@
 # The State of Autoplay on the Web
 
-Playback of any media that includes audio is generally blocked if the playback is programmatically initiated in a tab which has not yet had any user interaction. Browsers may additionally choose to block under other circumstances (see below).
+## TL;DR
+
+Playback of any media that includes audio is generally blocked if the playback is programmatically initiated in a tab which has not yet had any user interaction. Browsers may additionally choose to block under other circumstances.
+
+## Best Practices
+* Don't ever assume a video will play, and don't show a pause button when the video is not actually playing.
+* Use the promise returned by `HTMLMedia​Element​.play()` to check if the autoplay attempt succeeded or failed.
+* Always show media controls so that users can unmute or start the video even if it didn't autoplay.
+* Use feature policies to delegate autoplay to iframes.
+
+[https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
+
+[https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play#Usage_notes](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play#Usage_notes)
 
 ## Chrome
 *From version 66 (released on 4/17/2018)*
@@ -53,8 +65,3 @@ Playback of any media that includes audio is generally blocked if the playback i
 👩‍💻 Users can customize media behavior with both global and per-site autoplay controls. 
 
 [https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/browser-features/autoplay-policies](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/browser-features/autoplay-policies)
-
-## Further reading
-[https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
-
-[https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play#Usage_notes](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
