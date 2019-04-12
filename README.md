@@ -6,9 +6,9 @@ Playback of any media that includes audio is generally blocked if the playback i
 
 ## Best Practices
 * Don't ever assume a video will play, and don't show a pause button when the video is not actually playing.
-* Use the promise returned by `HTMLMedia​Element​.play()` to check if the autoplay attempt succeeded or failed.
+* Use the promise returned by `HTMLMedia​Element​.play()` to check if the play attempt succeeded or failed.
 * Always show media controls so that users can unmute or start the video even if it didn't autoplay.
-* Use feature policies to delegate autoplay to iframes.
+* Use feature policies to delegate autoplay permission to iframes.
 
 [https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
